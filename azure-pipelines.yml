@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  name: TP4-AgentPool
+  demands:
+  - agent.name -equals Agente007
+
+steps:
+- script: echo "🎉 El agente funciona correctamente!"
+  displayName: "Probar agente local"
