@@ -5,5 +5,5 @@ pool:
   name: Agente007   # tu pool self-hosted
 
 steps:
-- script: echo "🎉 El agente funciona correctamente! :("
+- script: echo "El agente funciona correctamente!"
   displayName: "Probar agente local"
